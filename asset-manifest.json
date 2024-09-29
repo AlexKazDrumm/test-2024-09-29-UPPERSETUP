@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/test-2024-09-29-UPPERSETUP/static/css/main.fe43f5fd.css",
+    "main.js": "/test-2024-09-29-UPPERSETUP/static/js/main.e1011bcc.js",
+    "static/js/453.8f5ba6be.chunk.js": "/test-2024-09-29-UPPERSETUP/static/js/453.8f5ba6be.chunk.js",
+    "static/media/Gilroy-Light.ttf": "/test-2024-09-29-UPPERSETUP/static/media/Gilroy-Light.1822a291dd62fe2cca72.ttf",
+    "static/media/Gilroy-Regular.ttf": "/test-2024-09-29-UPPERSETUP/static/media/Gilroy-Regular.5b89a8df3b17dccdb73f.ttf",
+    "static/media/Gilroy-Medium.ttf": "/test-2024-09-29-UPPERSETUP/static/media/Gilroy-Medium.1b4da6582f83f45ea039.ttf",
+    "static/media/Gilroy-Bold.ttf": "/test-2024-09-29-UPPERSETUP/static/media/Gilroy-Bold.ca49f7658c4eaac78b6d.ttf",
+    "index.html": "/test-2024-09-29-UPPERSETUP/index.html",
+    "main.fe43f5fd.css.map": "/test-2024-09-29-UPPERSETUP/static/css/main.fe43f5fd.css.map",
+    "main.e1011bcc.js.map": "/test-2024-09-29-UPPERSETUP/static/js/main.e1011bcc.js.map",
+    "453.8f5ba6be.chunk.js.map": "/test-2024-09-29-UPPERSETUP/static/js/453.8f5ba6be.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.fe43f5fd.css",
+    "static/js/main.e1011bcc.js"
+  ]
+}
