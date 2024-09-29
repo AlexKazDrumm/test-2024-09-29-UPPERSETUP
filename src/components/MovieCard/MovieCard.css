@@ -1,0 +1,21 @@
+.movie-card {
+    overflow: hidden;
+}
+
+.movie-card__image {
+    width: 99%;
+    aspect-ratio: 245/270;
+    object-fit: cover;
+    border-radius: 10px;
+    border: 1px solid #6627FF;
+}
+
+.movie-card__info {
+  display: flex;
+  flex-direction: column;
+  padding: 23px 0px 0px 13px;
+}
+
+.movie-card__info span:not(:last-child) {
+  margin-bottom: 8px;
+}

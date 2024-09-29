@@ -1,0 +1,17 @@
+.search-info {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 16px;
+  margin: 20px 0px 55px 0px;
+}
+
+.search-info__title {
+  font-size: 1.25rem;
+  font-weight: 400;
+  color: #333;
+}
+
+.search-info__title span {
+  text-decoration: underline;
+}
