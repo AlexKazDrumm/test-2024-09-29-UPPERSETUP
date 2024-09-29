@@ -1,6 +1,8 @@
 import React from 'react';
 import { getPageNumbers, handlePrevious, handleNext } from '../../utils/paginationUtils';
 import './Pagination.css';
+import Left from '../../assets/svg/arrow_left.svg';
+import Right from '../../assets/svg/arrow_right.svg';
 
 interface PaginationProps {
   currentPage: number;
@@ -22,7 +24,7 @@ const Pagination: React.FC<PaginationProps> = ({
         onClick={() => handlePrevious(currentPage, onPageChange)}
         disabled={currentPage === 1}
       >
-        <img src="/svg/arrow_left.svg" alt="Previous" />
+        <img src={Left} alt="Previous" />
       </button>
       {pages.map((page, index) => {
         if (page === 'ellipsis') {
@@ -52,7 +54,7 @@ const Pagination: React.FC<PaginationProps> = ({
         onClick={() => handleNext(currentPage, totalPages, onPageChange)}
         disabled={currentPage === totalPages}
       >
-        <img src="/svg/arrow_right.svg" alt="Next" />
+        <img src={Right} alt="Next" />
       </button>
     </div>
   );

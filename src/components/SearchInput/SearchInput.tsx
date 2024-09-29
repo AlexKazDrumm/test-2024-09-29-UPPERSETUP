@@ -1,5 +1,6 @@
 import React from 'react';
 import './SearchInput.css';
+import Search from '../../assets/svg/search.svg';
 
 interface SearchInputProps {
   value: string;
@@ -24,7 +25,7 @@ const SearchInput: React.FC<SearchInputProps> = ({ value, onChange, onEnter }) =
         placeholder="Movie"
       />
       <img
-        src="/svg/search.svg"
+        src={Search}
         alt="Search"
         className="search-icon"
         onClick={onEnter}

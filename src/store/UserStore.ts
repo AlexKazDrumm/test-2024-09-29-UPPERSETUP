@@ -11,7 +11,7 @@ class UserStore {
   fetchUserData() {
     this.user = {
       name: 'John Doe',
-      avatarUrl: '/svg/user.svg',
+      avatarUrl: '',
     };
   }
 }

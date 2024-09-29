@@ -5,6 +5,7 @@ import UserProfile from '../UserProfile/UserProfile';
 import userStore from '../../store/UserStore';
 import { movieStore } from '../../store/MovieStore';
 import './Header.css';
+import Logo from '../../assets/svg/logo.svg';
 
 interface HeaderProps {
   onSearch: () => void;
@@ -23,7 +24,7 @@ const Header: React.FC<HeaderProps> = ({ onSearch }) => {
   return (
     <header className="header">
       <div className="header__logo">
-        <img src="/svg/logo.svg" alt="Logo" />
+        <img src={Logo} alt="Logo" />
       </div>
       <SearchInput
         value={movieStore.searchTerm}

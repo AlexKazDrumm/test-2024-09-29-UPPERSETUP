@@ -1,5 +1,6 @@
 import React from 'react';
 import './UserProfile.css';
+import UserLogo from '../../assets/svg/user.svg';
 
 interface UserProfileProps {
   user: {
@@ -13,7 +14,7 @@ const UserProfile: React.FC<UserProfileProps> = ({ user }) => {
 
   return (
     <div className="header__user">
-      <img src={user.avatarUrl} alt="User" />
+      <img src={user.avatarUrl || UserLogo} alt="User" />
       <span>{user.name}</span>
     </div>
   );
